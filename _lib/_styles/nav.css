@@ -1,0 +1,105 @@
+/* CSS Document */
+/* --------------------------------------------- */
+/* NAVIGATION */
+
+ul.nav {
+    margin:0px;
+	padding:0px;
+    list-style-type:none;
+}
+ 
+ul.nav li {
+	margin:0px;
+    font-size:10px;
+    font-weight:bold;
+ }
+
+ul.nav li a {
+    display:block;
+    padding-left:27px;
+    padding-top:5px;
+    height:21px;
+    background-image:url(../../_sharedimg/inner_fistnav2_up.jpg);
+	background-repeat:repeat-y;
+    text-decoration:none;   
+    color:#548d5b;
+}
+
+ul.nav li a:hover {
+   background-image:url(../../_sharedimg/inner_fistnav2_over.jpg);
+   background-repeat:repeat-y;
+   color:#296531;
+}
+
+ul.nav li.sub a {
+	padding-left:38px;
+	padding-top:2px;
+	height:18px;
+	background-image:url(../../_sharedimg/inner_2ndnav_up.jpg);
+	background-repeat:repeat-y;
+	color:#9CAA5B;
+}
+
+ul.nav li.sub a:hover {
+   background-image:url(../../_sharedimg/inner_2ndnav_over.jpg);
+   background-repeat:repeat-y;
+   color:#296531;
+}
+
+ul.nav li.third a {
+    padding-left:48px;
+    padding-top:2px;
+    height:18px;
+    background-image:url(../../_sharedimg/inner_3rdnav_up.jpg);
+	background-repeat:repeat-y;
+    color:#838E4A;
+}
+
+ul.nav li.third a:hover {
+   background-image:url(../../_sharedimg/inner_3rdnav_over.jpg);
+   background-repeat:repeat-y;
+   color:#296531;
+}
+ul.nav li.highlight a {
+    padding-left:38px;
+	padding-top:2px;
+	height:18px;
+	background-image:url(../../_sharedimg/inner_nav_highlight.jpg);
+	background-repeat:repeat-y;
+	color:#B53921;
+}
+ul.nav li.highlight a:hover {
+	background-image:url(../../_sharedimg/inner_nav_highlight.jpg);
+	background-repeat:repeat-y;
+	color:#B53921;
+	}
+ul.nav li.highlight2 a {
+    padding-left:48px;
+    padding-top:2px;
+    height:18px;
+    background-image:url(../../_sharedimg/inner_nav_highlight2.jpg);
+	background-repeat:repeat-y;
+    color:#B53921;
+}
+ul.nav li.highlight2 a:hover {
+    background-image:url(../../_sharedimg/inner_nav_highlight2.jpg);
+	background-repeat:repeat-y;
+    color:#B53921;
+}		
+
+
+ul.nav li.highlight3 a {
+    display:block;
+    padding-left:27px;
+    padding-top:6px;
+    height:21px;
+    background-image:url(../../_sharedimg/inner_nav_highlight3.jpg);
+	background-repeat:repeat-y;
+    text-decoration:none;   
+    color:#B53921;
+}	
+ul.nav li.highlight3 a:hover {
+    background-image:url(../../_sharedimg/inner_nav_highlight3.jpg);
+	background-repeat:repeat-y;
+    color:#B53921;
+}	

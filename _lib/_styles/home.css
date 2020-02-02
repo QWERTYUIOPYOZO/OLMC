@@ -1,0 +1,41 @@
+/* --------------------------------------------- */
+/* TAG SELECTORS */
+a {
+	color: #5d9662;
+}
+
+a:hover, a:active {
+	color: #E7392C;
+}
+
+/* FOOTER CLASS SELECTORS */
+
+.footer {
+	font-family: verdana, arial, helvetica;
+	font-size: 10px;
+	color: #5d9662;
+	padding:0px 0px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footerbanner {
+	font-family: verdana, arial, helvetica;
+	font-size: 10px;
+	color: #5d9662;
+	line-height: 30px;
+	padding: 0px 0px;
+}
+
+.footerbanner strong {
+	color: #5d9662;
+	}
+
+.footerbanner a {
+	text-decoration: none;
+		}
+	
+
+/* --------------------------------------------------------- */

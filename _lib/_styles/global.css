@@ -1,0 +1,282 @@
+/* --------------------------------------------- */
+/* CONTAINER */
+body {
+	background-image: url(../../_sharedimg/inner_page_bg_tile.jpg);
+	background-repeat:repeat-x;
+	background-color: #FFFFFF;
+	font-family: verdana, arial, helvetica;
+}
+/* --------------------------------------------- */
+/* LAYOUT BLOCKS */
+
+#wrapper {
+	width:729px;
+	background-image:url(../../_sharedimg/inner_bg_tile.jpg);
+	background-repeat:repeat-y;
+}
+
+#header {
+	height:143px;
+}
+
+#leftside {
+	float:left;
+	width:199px;
+	text-align:left;
+	padding-bottom:50px;
+}
+
+#rightside {
+	float:left;
+	width:508px;
+	padding-left:0px;
+	padding-top:0px;
+	padding-right:20px;
+	padding-bottom:25px;
+	text-align:left;
+	font-size:11px;
+}
+
+#footer {
+	background-image:url(../../_sharedimg/inner_footer.jpg);
+	background-repeat:no-repeat;
+	height:26px;
+	clear:left;
+}
+
+/* --------------------------------------------------------- */
+/* FOOTER */
+
+#footer p {
+	font-family: verdana, arial, helvetica;
+	font-size: 10px;
+	color:#548d5b;
+	padding-left:25px;
+	padding-top:5px;
+	text-align:left;
+	font-weight:bold;
+}
+
+#footer a{
+	text-decoration: none;
+	color:#548d5b;
+}
+
+#footer a:hover{
+	color: #8e3f44;
+}
+
+/* --------------------------------------------------------- */
+/* TAG SELECTORS - TEXT STYLES */
+
+h1, h2, h3, h4
+{
+    clear:both;
+	font-style:normal;
+	text-align:left;	
+}
+
+h1, h2
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#993300;
+	font-weight:lighter;	
+}
+
+h3, h4
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#993300;
+	font-weight:bold;
+	font-size:12px;
+	margin-top:30px;
+}
+
+h1 {
+	font-size:24px;
+	line-height:30px;
+	margin-bottom:0px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size:18px;
+	background-image:url(../../_sharedimg/underline02.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+
+td,
+tr {
+	font-size:11px;
+	color:#000000;
+	text-align:left;
+	line-height: 17px;
+}
+
+ul, 
+li, 
+p
+{
+    font-size:11px;
+	color:#333333;
+	text-align:left;
+	line-height:15px;
+}
+ 
+li {
+	line-height:15px;
+ }
+ 
+ul.number, ol.number {
+	list-style-type: lower-roman;
+}
+
+ul.indented {
+	list-style-type:disc;
+}
+
+ul.indented li{
+	margin-left:10px;
+	
+}
+td p {margin-top:0px; margin-bottom:5px;}
+/* --------------------------------------------------------- */
+
+div.content2 {
+	text-align:left;
+	font-size:11px;
+	margin-top:20px;
+	color:#333333;
+}
+
+div.content3 {
+	text-align:left;
+	font-size:11px;
+	margin-top:20px;
+	color:#333333;
+}
+
+div.content2 div.footnote {
+	width:150px;
+	float:left;
+	margin-top:10px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:20px;
+	font-style: italic;
+	color: #305234;
+	display:inline;
+	line-height:15px;
+}
+
+div.content2 div.text {
+	width:300px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:20px;
+	line-height:15px;
+	display:inline;
+	color:#333333;
+}
+
+div.content2 div.text2 {
+	width:160px;
+	float:left;
+	margin-top:10px;
+	margin-right:20px;
+	margin-left:10px;
+	margin-bottom:20px;
+	line-height:15px;
+	color:#333333;
+}
+
+div.content2 div.footnote2 {
+	width:200px;
+	float:left;
+	margin-top:10px;
+	margin-left:0px;
+	margin-bottom:20px;
+	font-style: italic;
+	color: #305234;
+	display:inline;
+}
+
+/* --------------------------------------------------------- */
+/* Visual Styles */
+
+/* ----- Summary Pages ----- */
+p.section_statement {font-weight:bold;}
+ul.section_statement
+{
+  margin-left:0px;
+  padding-left:17px;
+}
+ul.section_statement li
+{
+  font-weight:bold;
+  list-style-type:none;
+}
+
+ul.summary_points 
+{
+  margin-left:0px;
+  padding-left:17px;
+}
+
+ul.summary_points li
+{
+  list-style-type:disc;
+  margin-top:5px;
+}
+
+li.marker_off {list-style-type:none;}
+
+ul.summary_points ul, ul.summary_points ol
+{
+  margin-left:0px;
+  margin-top:8px;
+  margin-bottom:10px;
+  padding-left:24px;
+}
+
+ul.summary_points ul li, ul.summary_points ol li {padding-top:3px;} 
+ul.summary_points ol li {list-style-type:decimal;}
+ul.summary_points ul li {list-style-type:circle;}
+
+ul.summary_points ol.alpha li {list-style-type:lower-alpha;}
+ul.summary_points .indented_sub_points {margin-left:0px; padding-left:0px;}
+ul.summary_points .indented_sub_points li {list-style-type:none;}
+
+table.summary_points
+{
+  table-layout:auto;
+  border-collapse:collapse;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+  
+table.summary_points col.c1 {width:110px;}
+
+table.summary_points td
+{
+  border-bottom:1px solid #ACBF73;
+  padding:0px;
+  vertical-align:top;  
+}
+  
+table.summary_points tr.header td {border-bottom-color:#993300; background-color:#BFD383;}
+table.summary_points tr.mod2 td {background-color:#CBDB99;}
+  
+table.summary_points td p 
+{
+  margin:0px;
+  padding:10px;
+}      
+  
+table.summary_points tr.header p 
+{
+  color:#993300;
+  font-weight:bold;
+}

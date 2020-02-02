@@ -1,0 +1,48 @@
+/* --------------------------------------------- */
+
+body {
+	background-color: #FFFFFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:1em;
+	line-height:1.4em;
+}
+
+#header {
+	display:none;
+}
+
+#leftside {
+	display:none;
+
+}
+
+#footer {
+	display:none;
+}
+
+
+h2 {margin:50px 0px 0px 0px;}
+
+
+#rightside {
+	text-align:left;
+}
+
+#rightside h3 {margin:50px 0px 0px 0px;}
+
+div.footnote {
+	font-size:0.8em;
+	font-style:italic;
+	margin:50px 0px 0px 0px;
+	padding:0px;
+	width:130px;
+}
+
+div.footnote p {margin:0px; padding:0px;}
+
+div.text {
+	margin:0px 0px 0px 150px;
+	padding:0px;
+}
+
+div.text p {margin:0px 0px 20px 0px;}
